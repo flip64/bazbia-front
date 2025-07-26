@@ -22,7 +22,7 @@ const Header = () => {
               "text-4xl lg:text-[64px] lg:leading-[64px] mb-5 lg:mb-8",
             ])}
           >
-            FIND CLOTHES THAT MATCHES YOUR STYLE
+             لباس مناسب خود را بیابید 
           </motion.h2>
           <motion.p
             initial={{ y: "100px", opacity: 0 }}
@@ -45,7 +45,7 @@ const Header = () => {
               href="/shop"
               className="w-full md:w-52 mb-5 md:mb-12 inline-block text-center bg-black hover:bg-black/80 transition-all text-white px-14 py-4 rounded-full hover:animate-pulse"
             >
-              Shop Now
+               خرید کنید
             </Link>
           </motion.div>
           <motion.div
